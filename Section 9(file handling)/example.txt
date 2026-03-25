@@ -1,0 +1,3 @@
+hello guys im abhinav
+welcome to my repository
+im practising basic file operations in python
