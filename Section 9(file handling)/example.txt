@@ -1,3 +1,7 @@
-hello guys im abhinav
-welcome to my repository
-im practising basic file operations in python
+Hello abhinav
+This is new line
+This line adding in file without overwriting 
+This line adding in file without overwriting
+first line
+second line
+third line
