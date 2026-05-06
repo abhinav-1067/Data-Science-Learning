@@ -12,7 +12,7 @@ https://docs.langchain.com/oss/python/deepagents/content-builder
 '''
 
 import threading
-import BeautifulSoup
+from bs4 import BeautifulSoup
 import requests
 
 urls = [
@@ -34,3 +34,8 @@ for url in urls:
     thread = threading.Thread(target=fetch_content,args=(url))
     threads.append(thread)
     thread.start()
+    
+for thread in threads:
+    thread.join()
+    
+print("all file is featched")
