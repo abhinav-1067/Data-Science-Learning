@@ -7,3 +7,5 @@ app = Flask(__name__)
 def welcome():
     return "Welcome to the website"
 
+if __name__ == "__main__":
+    app.run()
