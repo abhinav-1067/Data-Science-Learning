@@ -31,7 +31,7 @@ def fetch_content(url):
 threads = []
 
 for url in urls:
-    thread = threading.Thread(target=fetch_content,args=(url))
+    thread = threading.Thread(target=fetch_content,args=(url,))
     threads.append(thread)
     thread.start()
     
