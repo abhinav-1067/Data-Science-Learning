@@ -3,3 +3,8 @@ flask
 streamlit
 bs4
 flask
+requests
+pandas
+numpy
+matplotlib
+seaborn
