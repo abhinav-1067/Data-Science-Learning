@@ -12,14 +12,17 @@
 
     <h3>
         Register Here! <br>
+        {% if message %}
+            <p style="color: red;">{{message}}</p>
+        {% endif %}
 
-        <form action="">
+        <form action="/perform_registration" method="post">
             <label for="">Name</label><br>
-            <input type="text"><br>
+            <input type="text" name="users_name" required><br>
             <label for="">Email</label><br>
-            <input type="email"><br>
+            <input type="email" name="users_email" required><br>
             <label for="">Password</label><br>
-            <input type="password"><br><br>
+            <input type="password" name="users_password" required><br><br>
             <input type="submit" value="Register">
                </form>
     </h3>

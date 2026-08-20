@@ -12,12 +12,15 @@
 
     <h3>
         Login Here! <br>
+        {% if message %}
+            <p style="color: green;">{{message}}</p>
+        {% endif %}
 
-        <form action="">
+        <form action="/perform_login" method="post">
             <label for="">Email</label><br>
-            <input type="email"><br>
+            <input type="email" name="user_name" required><br>
             <label for="">Password</label><br>
-            <input type="password"><br><br>
+            <input type="password" name="user_password" required><br><br>
             <input type="submit" value="Login">
                </form>
     </h3>
