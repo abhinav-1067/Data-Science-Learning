@@ -1,0 +1,25 @@
+Step by Step Data cleaning---
+
+1. Data Collection And Inspection.
+
+--> Types of data in each column (categorical, numerical, datetime, text, etc )
+--> Missing values/ Duplicate values
+--> Datatypes
+--> Inconsistencies
+
+ --- Techniques---
+
+ 1. Summary statistics
+ 2. Distrubution plot
+ 3. info() [datatypes, non null count]
+ 4. Frequency count(for categorical data)
+ 5. Visual inspect
+
+2. Handling Missing Values.
+
+--> Delete rows/columns (if more then 50% data is missing).
+--> Imputation (filling missing values).
+    |--> mean/median/mode(for numerical data)
+    |--> mode/unknown (for catagorical data or like phone number)
+    |--> Forward fill/backward fill (for datetime, numerical data)
+--> Predictive imputation using ML model.
