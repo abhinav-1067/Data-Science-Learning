@@ -19,3 +19,5 @@ lxml
 openpyxl
 statsmodels
 xgboost
+
+streamlit
